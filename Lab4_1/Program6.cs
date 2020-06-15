@@ -18,10 +18,14 @@ namespace Lab4_1
             while (!flag)
             {
                 string[] arr = Console.ReadLine().Split(" ");
+                numbers = new double[arr.Length];
 
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    if (double.TryParse(arr[i], out numbers[i])) flag = true;
+                    if (double.TryParse(arr[i], out numbers[i]))
+                    {
+                        flag = true;
+                    }
                     else
                     {
                         flag = false;

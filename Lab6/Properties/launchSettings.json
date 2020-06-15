@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab5": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\My files\\proga\\text1.txt\""
+    }
+  }
+}
