@@ -32,7 +32,7 @@ namespace Lab5
         static void SelectSentences(string text)
         {
             Console.WriteLine($"Исходный текст:\n{text}\n");
-            
+
             // Save separators in the end of the sentences
             List<char> separators = text.ToCharArray().Where(s => ((s == '.') || (s == '?') || (s == '!'))).ToList();
 
